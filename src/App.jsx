@@ -1,8 +1,12 @@
+// Components
+import SearchNav from "./components/SearchNav"
 
-// import 
+
 export default function App() {
   return (
     <>
+
+    <SearchNav />
 
     {/* <!-- Recomendations Section --> */}
     <section id="Sec-Recomendations" class="relative py-4">
