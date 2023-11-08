@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Card {
+    @apply container-img h-3/5 flex-none;
+  }
