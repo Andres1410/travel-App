@@ -1,4 +1,4 @@
-import SearchNav from "../components/SearchNav"
+import SearchNav from "../components/Search/SearchNav"
 
 function MyGeneral() {
   return (

@@ -1,6 +1,7 @@
 
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+import "../Search/Search.css"
 
 class SearchNav extends React.Component {
     constructor(props) {
@@ -13,7 +14,7 @@ class SearchNav extends React.Component {
             <>
             <div id="home">
             <div class="">
-                <div class="">
+                <div class="Image">
                     <img src="./img/paisaje.jpg" alt="" />
                 </div>
                 <div className="">
