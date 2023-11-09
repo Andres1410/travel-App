@@ -10,9 +10,21 @@ class SearchNav extends React.Component {
 
     render() {
         return (
-            <div>
-                <h3>Hellou world</h3>
+            <>
+            <div id="home">
+            <div class="">
+                <div class="">
+                    <img src="./img/paisaje.jpg" alt="" />
+                </div>
+                <div className="">
+                    <input className="outline-black" type="search" name="" id="" />
+                    <button className="bg-red-200">
+                        Explore
+                    </button>
+                        </div>
+                    </div>
             </div>
+            </>
         );
     }
 }

@@ -1,8 +1,11 @@
-
+import SearchNav from "../components/SearchNav"
 
 function MyGeneral() {
   return (
-    <section id="Sec-Recomendations" class="relative py-4">
+    <>
+    <section id="Sec-Recomendations" className=" w-full h-screen relative py-4">
+                <SearchNav/>
+
                 <h3 class="text-red text-3xl font-bold m-4">Recomendaciones</h3>
 
                 <div id="default-carousel" className="m-2 p-4 whitespace-nowrap overflow-x-auto overscroll-x-contain flex-none " >
@@ -49,7 +52,7 @@ function MyGeneral() {
 
                     <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
                         <div className="Card">
-                            <img src="./img/paris.jpg" alt="" />
+                            <img src="./img/arquitectura.jpg" alt="" />
                         </div>
                         <div className="container-text bg-green h-2/5 p-4 whitespace-normal">
                             <h4 className="text-white font-bold text-xl">paris</h4>
@@ -70,7 +73,7 @@ function MyGeneral() {
 
                 </div>
             </section>
-    
+    </>
   );
 }
 

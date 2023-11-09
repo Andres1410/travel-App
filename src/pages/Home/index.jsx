@@ -1,13 +1,10 @@
 // Components
-import SearchNav from "../../components/SearchNav"
 import MyGeneral from "../MyGeneral"
 
 
 export default function App() {
   return (
     <>
-
-    <SearchNav />
 
     {/* <!-- Recomendations Section --> */}
       <MyGeneral />
