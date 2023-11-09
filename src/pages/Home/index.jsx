@@ -13,8 +13,9 @@ export default function App() {
       <MyGeneral />
    <br />
 
+
     {/* <!-- Footer --> */}
-    <footer>
+    {/* <footer>
         <h3 class="m-6 text-2xl font-bold">About Us</h3>
         <ul class="mx-10">
             <li><a href="#" class="hover:text-red font-semibold">Investors</a></li>
@@ -32,7 +33,7 @@ export default function App() {
               <img src="" alt="" />
               </a>
         </div>
-    </footer>
+    </footer> */}
 
     </>
   )
