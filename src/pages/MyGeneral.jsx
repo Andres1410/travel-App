@@ -72,7 +72,7 @@ function MyGeneral() {
                 </div>
                 <div className="px-6 h-full w-full" id="rentas_destacadas">
                     <p className="text-3xl text-primary font-semibold pb-6">Rentas destacadas</p>
-                    <div className="w-full h-full flex flex-col space-y-4">
+                    <div className="w-full h-full flex flex-col space-y-4 items-center">
                         <div className="w-full h-96  bg-cover rounded-lg"  style={{ backgroundImage: "url('./public/img/moscu.jpg')" }}>
                             <p className="CardTitle">Chicago</p>
                             <p className="text-md pl-8 text-white mr-24">2 Habitaciones, baño y cocina</p>
