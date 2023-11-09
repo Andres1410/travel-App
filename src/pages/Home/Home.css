@@ -1,4 +1,4 @@
 
 .Card {
-    @apply container-img h-3/5 flex-none;
+    @apply container-img h-3/5 flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
   }
