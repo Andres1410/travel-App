@@ -3,7 +3,7 @@ import SearchNav from "../components/Search/SearchNav"
 function MyGeneral() {
   return (
     <>
-    <section id="Sec-Recomendations" className=" w-full h-screen relative py-4">
+    <section id="Sec-Recomendations" className=" w-full h-screen relative py-4 ">
                 <SearchNav/>
 
                 <h3 class="text-red text-3xl font-bold m-4">Recomendaciones</h3>

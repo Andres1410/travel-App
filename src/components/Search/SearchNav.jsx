@@ -1,7 +1,7 @@
 
 import React from 'react';
 // import PropTypes from 'prop-types';
-import "../Search/Search.css"
+// import "../Search/Search.css"
 
 class SearchNav extends React.Component {
     constructor(props) {
@@ -12,18 +12,13 @@ class SearchNav extends React.Component {
     render() {
         return (
             <>
-            <div id="home">
-            <div class="">
-                <div class="Image">
-                    <img src="./img/paisaje.jpg" alt="" />
-                </div>
-                <div className="">
-                    <input className="outline-black" type="search" name="" id="" />
-                    <button className="bg-red-200">
-                        Explore
-                    </button>
-                        </div>
-                    </div>
+              <div class="grid md:hidden text-center content-around h-full relative md:flex md:items-center  bg-[url('../public/img/paisaje.jpg')] md:bg-[url('../public/img/paisaje.jpg')] bg-cover h-screen md:h-[90vh]">
+                <form action="">
+                    <input class="shadow-lg rounded-full py-4 w-3/4 outline-none text-center" placeholder='dubai' type="search" name="" id="" />
+                </form>
+                <button class="text-red text-lg font-semibold rounded-full shadow-lg bg-white hover:bg-red hover:text-white p-4 w-1/2 mx-auto">
+                    Explore More
+                </button>
             </div>
             </>
         );
