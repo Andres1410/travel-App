@@ -3,14 +3,14 @@ import SearchNav from "../components/Search/SearchNav"
 function MyGeneral() {
   return (
     <>
-    <section id="Sec-Recomendations" className=" w-full h-screen relative py-4 ">
+    <section id="Sec-Recomendations" className=" w-full h-screen relative py-4 font-monserrat ">
                 <SearchNav/>
 
                 <h3 class="text-red text-3xl font-bold m-4">Recomendaciones</h3>
 
                 <div id="default-carousel" className="m-2 p-4 whitespace-nowrap overflow-x-auto overscroll-x-contain flex-none " >
 
-                    <div className="rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div className="rounded-lg h-72 w-60 mx-4 shadow-lg inline-block hover:cursor-pointer overflow-y-hidden">
                         <div className="Card">
                                 <img src="./img/new_York.jpg" alt="" />
                         </div>
@@ -20,7 +20,7 @@ function MyGeneral() {
                         </div>
                     </div>
 
-                    <div class=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div class=" rounded-lg h-72 w-60 mx-4 shadow-lg  inline-block hover:cursor-pointer  overflow-y-hidden">
                         <div class="Card">
                             <img src="./img/sanFrancisco.jpg" alt="" />
                         </div>
@@ -30,7 +30,7 @@ function MyGeneral() {
                         </div>
                     </div>
                     
-                    <div class=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div class=" rounded-lg h-72 w-60 mx-4 shadow-lg  inline-block hover:cursor-pointer overflow-y-hidden">
                         <div class="Card">
                                 <img src="./img/singapur.jpg" alt="" />
                         </div>
@@ -40,7 +40,7 @@ function MyGeneral() {
                         </div>
                     </div>
 
-                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg  inline-block hover:cursor-pointer overflow-y-hidden">
                         <div className="Card">
                             <img src="./img/faro.jpg" alt="" />
                         </div>
@@ -50,7 +50,7 @@ function MyGeneral() {
                         </div>
                     </div>
 
-                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg  inline-block hover:cursor-pointer overflow-y-hidden">
                         <div className="Card">
                             <img src="./img/arquitectura.jpg" alt="" />
                         </div>
@@ -60,7 +60,7 @@ function MyGeneral() {
                         </div>
                     </div>
 
-                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg overflow-hidden inline-block hover:cursor-pointer">
+                    <div className=" rounded-lg h-72 w-60 mx-4 shadow-lg  inline-block hover:cursor-pointer overflow-y-hidden">
                         <div className="Card">
                             <img src="./img/new_York.jpg" alt="" />
                         </div>
@@ -69,8 +69,15 @@ function MyGeneral() {
                             <p className="text-blue">City of Artists</p>
                         </div>
                     </div>
-
-
+                </div>
+                <div className="px-6 h-full w-full" id="rentas_destacadas">
+                    <p className="text-3xl text-primary font-semibold pb-6">Rentas destacadas</p>
+                    <div>
+                        <div className="w-full h-96  bg-cover rounded-lg"  style={{ backgroundImage: "url('./public/img/moscu.jpg')" }}>
+                            <p className="CardTitle">Chicago</p>
+                            <p className="text-md pl-8 text-white mr-24">2 Habitaciones, baño y cocina</p>
+                        </div>
+                    </div>
                 </div>
             </section>
     </>
