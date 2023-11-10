@@ -83,17 +83,18 @@ function MyGeneral() {
                         </div>
                     </div>
                 </div>
-                <br />
+                
 
                 <div className="w-full h-full" id="faqs">
                     <div className="w-full h-full px-6 flex flex-col space-y-4">
-                        <p className="text-3xl text-primary font-semibold mt-12">FAQS</p>
+                        <p className="text-3xl text-primary font-semibold mt-20">FAQS</p>
                         <div>
                             <p className="text-xl font-medium text-primary">
                                 Politica de Cancelaciòn
                             </p>
                             <p className="text-md pt-2">
                                 Para estancias menores a una semana
+                                es importante
                             </p>
                         </div>
                     </div>
